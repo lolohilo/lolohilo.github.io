@@ -1,0 +1,110 @@
+@media (max-width: 670px){
+  .headerLogo h1{
+    font-size: 25px;
+  }
+
+  .title h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+
+  .main{
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.4) 0%, rgba(151, 217, 225, 0.4) 100%), url(mainbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+  }
+
+  .sub li{
+    color:rgb(0, 10, 42);
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow:
+        2px  2px 1px rgb(243,240,241),
+       -2px  2px 1px rgb(243,240,241),
+        2px -2px 1px rgb(243,240,241),
+       -2px -2px 1px rgb(243,240,241),
+        2px  0px 1px rgb(243,240,241),
+        0px  2px 1px rgb(243,240,241),
+       -2px  0px 1px rgb(243,240,241),
+        0px -2px 1px rgb(243,240,241);
+  }
+
+  .tel h2{
+    font-size: 16px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #FFAB05;
+    line-height: 100%;
+    position: relative;
+    text-shadow:
+        2px  2px 1px rgb(0, 10, 42),
+       -2px  2px 1px rgb(0, 10, 42),
+        2px -2px 1px rgb(0, 10, 42),
+       -2px -2px 1px rgb(0, 10, 42),
+        2px  0px 1px rgb(0, 10, 42),
+        0px  2px 1px rgb(0, 10, 42),
+       -2px  0px 1px rgb(0, 10, 42),
+        0px -2px 1px rgb(0, 10, 42);
+  }
+
+  .pop{
+    -moz-transform: rotate(-20deg); /*−30度回転（Mozilla系ブラウザ e.g.: Firefox）*/
+    -webkit-transform: rotate(-20deg); /*−30度回転（Webkit系ブラウザ e.g.: Safari, Google Chrome）*/
+    -o-transform: rotate(-20deg); /*−30度回転（Opera系ブラウザ e.g.: Opera）*/
+    -ms-transform: rotate(-20deg);
+    position: relative;
+    display: inline-block;
+    float: center;
+    top: -140px;
+    left: -140px;
+    font-family:"Impact";
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 0px 22px;
+    margin-right: 20px;
+  }
+
+  .portfolio{
+    margin-bottom: 10px;
+  }
+
+  .portfolio h3{
+    font-size: 25px;
+  }
+
+  footer{
+    height:170px;
+    width:100%;
+    background-color:rgba(0, 10, 42, 0.9);
+    color:rgb(243,240,241);
+    position: static;
+  }
+
+  .logo{
+    float: none;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+  }
+  .data{
+    font-size: 17px;
+    margin: 10px;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px){
+
+}

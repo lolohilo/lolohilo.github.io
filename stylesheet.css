@@ -1,0 +1,238 @@
+html{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgb(0, 10, 42);
+  font-family:"グレー","American Typewriter";
+}
+
+/*----------else----------*/
+
+.max-width{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.float-clear{
+  clear: both;
+}
+li{
+  list-style: none;
+}
+
+
+/*----------header----------*/
+header{
+  height:50px;
+  width:100%;
+  background-color:rgba(0, 10, 42, 0.9);
+  color:rgb(243,240,241);
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: sans-serif;
+}
+
+.headerLogo{
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.headerLogo h1{
+  font-size: 30px;
+  line-height: 20px;
+}
+
+
+/*----------main----------*/
+.main{
+  height: 650px;
+  width: 100%;
+  padding: 0px;
+  margin-top: 50px;
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.4) 0%, rgba(151, 217, 225, 0.4) 100%), url(mainbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+.title{
+  float: left;
+  margin-left: 10px;
+}
+
+.title h1{
+  font-family: "Impact";
+  font-size: 180px;
+  color: #FFAB05;
+  font-weight: bold;
+  letter-spacing: 20px;
+  line-height: 30px;
+  text-shadow:
+      2px  2px 1px rgb(0, 10, 42),
+     -2px  2px 1px rgb(0, 10, 42),
+      2px -2px 1px rgb(0, 10, 42),
+     -2px -2px 1px rgb(0, 10, 42),
+      2px  0px 1px rgb(0, 10, 42),
+      0px  2px 1px rgb(0, 10, 42),
+     -2px  0px 1px rgb(0, 10, 42),
+      0px -2px 1px rgb(0, 10, 42);
+}
+
+ul{
+  padding-inline-start: 5px;
+}
+
+.sub li{
+  color:rgb(0, 10, 42);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow:
+      2px  2px 1px rgb(243,240,241),
+     -2px  2px 1px rgb(243,240,241),
+      2px -2px 1px rgb(243,240,241),
+     -2px -2px 1px rgb(243,240,241),
+      2px  0px 1px rgb(243,240,241),
+      0px  2px 1px rgb(243,240,241),
+     -2px  0px 1px rgb(243,240,241),
+      0px -2px 1px rgb(243,240,241);
+}
+
+.tel{
+  padding-top: 80px;
+  text-align: center;
+  display: block;
+}
+
+.tel h2{
+  font-size: 20px;
+  margin: 0px;
+  font-family: sans-serif;
+  color: #FFAB05;
+  line-height: 100%;
+  position: relative;
+  text-shadow:
+      2px  2px 1px rgb(0, 10, 42),
+     -2px  2px 1px rgb(0, 10, 42),
+      2px -2px 1px rgb(0, 10, 42),
+     -2px -2px 1px rgb(0, 10, 42),
+      2px  0px 1px rgb(0, 10, 42),
+      0px  2px 1px rgb(0, 10, 42),
+     -2px  0px 1px rgb(0, 10, 42),
+      0px -2px 1px rgb(0, 10, 42);
+}
+
+.tel h3{
+  font-size: 40px;
+  margin: 0px;
+  line-height: 100%;
+  font-family: sans-serif;
+  color: #FFAB05;
+  text-shadow:
+      2px  2px 1px rgb(0, 10, 42),
+     -2px  2px 1px rgb(0, 10, 42),
+      2px -2px 1px rgb(0, 10, 42),
+     -2px -2px 1px rgb(0, 10, 42),
+      2px  0px 1px rgb(0, 10, 42),
+      0px  2px 1px rgb(0, 10, 42),
+     -2px  0px 1px rgb(0, 10, 42),
+      0px -2px 1px rgb(0, 10, 42);
+}
+
+.pop{
+  -moz-transform: rotate(20deg); /*−30度回転（Mozilla系ブラウザ e.g.: Firefox）*/
+  -webkit-transform: rotate(20deg); /*−30度回転（Webkit系ブラウザ e.g.: Safari, Google Chrome）*/
+  -o-transform: rotate(20deg); /*−30度回転（Opera系ブラウザ e.g.: Opera）*/
+  -ms-transform: rotate(20deg);
+  position: relative;
+  display: inline-block;
+  float: center;
+  top: -150px;
+  left: 240px;
+  font-family:"Impact";
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0px 30px;
+  margin-right: 20px;
+}
+
+.portfolio{
+  background-color:rgb(243,240,241);
+  color:rgb(0, 10, 42);
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.portfolio h3{
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.steps{
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+.steps img{
+  width: 90%;
+  padding-bottom: 10px;
+}
+
+.steps h2{
+  font-size: 24px;
+}
+
+
+
+footer{
+  height:90px;
+  width:100%;
+  background-color:rgba(0, 10, 42, 0.9);
+  color:rgb(243,240,241);
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo{
+  float: left;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.data{
+  font-size: 12px;
+  margin: 10px;
+  float: right;
+}
+.data li{
+  text-align: center;
+}
+
+.copyright{
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  background-color: #FFAB05;
+  color: rgb(0, 10, 42);
+}
+
+.copyright p{
+  text-align: center;
+  font-weight: bold;
+}
